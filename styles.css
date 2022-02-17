@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&display=swap');
+
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 251, 0);
+    background: url("https://i.pinimg.com/originals/df/3a/62/df3a62707ba629981103bc6709666431.jpg");
+    margin-top: 15px;
+    font-size: 35px;
+    text-shadow: 6px 6px black;
+    grid-gap: 5px;
+}
+
+
+.aparenciaCalculadora {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 102, 102);
+    border: solid 2px rgb(0, 0, 0);
+    grid-template-columns: repeat (4, 50px);
+    grid-template-rows: repeat (5, 50px);
+    border-radius: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px 2px;
+}
+
+.resultado {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: left;
+    color:rgb(0, 0, 0);  
+    height: 100px;
+    width: 305px;
+}
+
+
+.tecla {
+    background-color: rgb(222, 222, 233);
+    margin: 2px;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;  
+    position: relative;
+    grid-gap: 10px 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.tecla:hover {
+    background-color: rgb(235, 228, 165);
+    cursor: pointer;
+    filter: brightness(1);
+}
+
+#clear {
+    background-color: rgb(212, 212, 218);
+    color: rgb(255, 0, 0);
+    border-radius: 5px;  
+    position: relative;
+    margin: 2Px;
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+}
+
+#clear:hover {
+    background-color: rgb(216, 212, 179);
+    cursor: pointer;
+    filter: brightness(1);
+}

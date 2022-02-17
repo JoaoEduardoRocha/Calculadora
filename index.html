@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1> Calculadora </h1>
+    </header>
+    <main>
+    <div class="aparenciaCalculadora">
+
+        <input class="resultado" type="text">
+
+        <input id="clear" type="button" value="C" onclick="limparTela()">
+
+        <input class="tecla" type="button" value="7" onclick="resultado(7)">
+        <input class="tecla" type="button" value="8" onclick="resultado(8)">
+        <input class="tecla" type="button" value="9" onclick="resultado(9)">
+        <input class="tecla" type="button" value="+" onclick="resultado('+')">
+
+        <input class="tecla" type="button" value="4" onclick="resultado(4)">
+        <input class="tecla" type="button" value="5" onclick="resultado(5)">
+        <input class="tecla" type="button" value="6" onclick="resultado(6)">
+        <input class="tecla" type="button" value="-" onclick="resultado('-')">
+        
+        <input class="tecla" type="button" value="1" onclick="resultado(1)">
+        <input class="tecla" type="button" value="2" onclick="resultado(2)">
+        <input class="tecla" type="button" value="3" onclick="resultado(3)">
+        <input class="tecla" type="button" value="*" onclick="resultado('*')">
+
+        <input class="tecla" type="button" value="/" onclick="resultado('/')">
+        <input class="tecla" type="button" value="0" onclick="resultado(0)">
+        <input class="tecla" type="button" value="." onclick="resultado('.')">
+        <input class="tecla" type="button" value="=" onclick="teclas()">
+    
+    </div>
+    </main>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
